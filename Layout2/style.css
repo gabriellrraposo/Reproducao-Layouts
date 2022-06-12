@@ -1,0 +1,112 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5% 17%;
+    font-family: Poppins;
+}
+
+#logo {
+    margin-right: 40%;
+    display: inline;
+    font-weight: 900;
+}
+
+nav a {
+    margin-right: 4%;
+    color: #131d29;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.texto {
+    position: fixed;
+    top: 25%;
+}
+
+.texto span {
+    font-size: .9rem;
+    color: #0075f6;
+    font-weight: 600;
+}
+
+.texto h1 {
+    font-size: 3.4rem;
+    font-weight: 800;
+    margin: 1.3% 0;
+}
+
+.texto h1 span {
+    font-size: 3.6rem;
+    color: #0075f6;
+    font-weight: 800;
+}
+
+.texto h3 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 9%;
+}
+
+.texto button {
+    background: none;
+    
+    font-family: Poppins;
+    font-size: .76rem;
+    color: #0075f6;
+    letter-spacing: .15rem;
+    
+    border: none;
+    border: solid 1px #0075f6;
+
+    padding: 1.1% 5%;
+}
+
+.texto button:hover {
+    cursor: pointer;
+}
+
+.imagem {
+    position: fixed;
+    z-index: -1;
+    top: 15%;
+    left: 28%;
+}
+
+.imagem img {
+    width: 70%;
+    height: 64%;
+}
+
+.quadradoFundo {
+    background-color: #75b3fa;
+    width: 1000px;
+    height: 640px;
+
+    position: fixed;
+    top: 0;
+    left: 55%;
+    z-index: -2;
+}
+
+.icone {
+    background-color: white;
+    border-radius: 50%;
+
+    width: fit-content;
+    padding: 2.2% 2.6%;
+
+    position: fixed;
+    left: 71%;
+    top: 18%;
+}
+

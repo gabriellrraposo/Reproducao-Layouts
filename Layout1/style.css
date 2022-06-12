@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    background-color: #18181c;
+    width: 16vw;
+    padding: 2% 0;
+}
+
+main div {
+    display: inline;
+}
+
+
+.img1 {
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.img2 {
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+
+.img3 {
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+}
+
+.img4 {
+    position: absolute;
+    top: 390px;
+    left: 700px;
+}
+
+.img5 {
+    position: absolute;
+    top: 390px;
+    left: 1050px;
+}
+
+.img6 {
+    position: absolute;
+    top: 390px;
+    left: 1400px;
+}
+
+.img7 {
+    position: absolute;
+    top: 740px;
+    left: 350px;
+}
+
+.img8 {
+    position: absolute;
+    top: 740px;
+    left: 700px;
+}
+
+.img9 {
+    position: absolute;
+    top: 740px;
+    left: 1050px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+nav button {
+    display: block;
+    background: none;
+    border: none;
+    font-family: Montserrat;
+    padding: 3%;
+    padding-left: 20%;
+    padding-right: 5%;
+    margin: .4% 0;
+    margin-bottom: 3%;
+}
+
+.opcoes button {
+    padding: 4%;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+nav button:hover {
+    background-color: #99896e;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.filtro h3 {
+    padding: 4%;
+    padding-left: 20%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #99896e;
+}
+
+.filtro {
+    margin-top: 12%;
+}
+
+#home {
+    background-color: #99896e;
+}
+
+#all {
+    background-color: #99896e;
+}
+
+.icones {
+    text-align: center;
+    margin-top: 100%;
+    margin-bottom: 25%;
+    padding: 0 8%;
+}
+
+.icones i {
+    margin-left: 4%;
+    font-size: 1rem;
+    color: #99896e;
+}
+
+.icones i:hover {
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    padding: 0 8%;
+}
+
+.copyright span {
+    font-size: .8rem;
+    color: #99896e;
+}
+
